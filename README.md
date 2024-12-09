@@ -4,28 +4,13 @@ ML Research Release Toolkit 🤗
 
 Congratulations on publishing your paper and sharing your research with the world! It's a huge accomplishment, but did you know you can increase the visibility and adoption of your work by releasing other parts of your research? That’s why we’ve put together this document, which provides a high-level overview of good practices and tips for helping to open-source your work. 
 
-\
-\
-
-
 **What does it mean to release Open Source research?**
 
 Publishing your research - not just the paper, but some or all related artifacts, such as code, models, datasets, or online demos for people to try out.
 
-\
-\
-
-
 **Why Open Source your ML research?**
 
 By doing open-access research, you increase the adoption of your work and enable scientific reproducibility and collaborations with other researchers. By doing ML collaboratively, you share knowledge and resources in a community-centric way, advancing the ML field.
-
-\
-\
-\
-\
-\
-
 
 **What things can I do?**
 
@@ -46,9 +31,6 @@ Here is a high-level overview of things that can be done with a release:
 - Foster usage and adoption
 
 **It’s up to you to define what, how, and when you want to release your artifacts**; this document provides guidance and tips. There is a section for each of the artifacts mentioned above.
-
-\
-
 
 **What tools will we use?**
 
@@ -113,9 +95,6 @@ Review arXiv’s official [guidelines](https://info.arxiv.org/help/submit/index.
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeXuB52iRQAWkRUypm2oMI_vtb-Ch-ckZxXtrnudFZ5-FdJ_8qn4swZuUSIei9ql3RDlPY8dxMdbWyZUCRJ7rGSBL4_7bJTd3_P9zpCCKadBGismTdsuVw9dRkYjwHJvyf3MKoKRAqCuFj0wlsBLl8k1Cs?key=JBrhtrMnmuTw4EqYJzGXMA)
 
-\
-\
-
 
 2. Submit your paper
 
@@ -125,12 +104,6 @@ Go to your [user page](https://arxiv.org/user/) and click “new submission”. 
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf5R6mWts4dErev9ZcS0H-KaJMSA0E4EJ9pEzdBcg3pdMAssPKJaijntIv3X-qiDqoMYFyGRg5pBHT1P5CfdGuuNprgluk-UtNoTTpvAH6Yvbuupo3yyQvXXhQFTu21Cl5Zo-2B_uCyIvT09vWENBBkblsi?key=JBrhtrMnmuTw4EqYJzGXMA)
 
-\
-\
-\
-
-
-
 ## Release the code repository
 
 We’ll use GitHub to share the code. GitHub is a platform for version control of code. On GitHub, you can share your codebase (either the inference/modeling code, the training code, or both!).
@@ -138,13 +111,6 @@ We’ll use GitHub to share the code. GitHub is a platform for version control o
 1. Create a repository at <https://github.com/new> with a README and a license of your choice.
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXd5Ru-XjxDqdkOgfX2JFsRs_PSJBv6Mxhys6NvIxwSn0rN60Tj2ABGgi58Z5RzQZb4s7UdCn1lhAaAFsjevkTzs3N7A-AXExAUQKk-d3e5Rn7_06zTdxiqOHKSmLgDHDOKJ2hR0V-8q8Uidc0RGnpIKLY-O?key=JBrhtrMnmuTw4EqYJzGXMA)
-
-\
-\
-\
-\
-\
-
 
 2. Write the README.
 
@@ -160,34 +126,6 @@ It’s now time to [upload your code](https://docs.github.com/en/repositories/wo
 
 You might also want to integrate your model into a Hugging Face library to release with a day-0 integration. If that’s the case, feel free to contact <open-source@huggingface.co> so we can assess together and provide feedback.
 
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-
-
-
 ## Release the dataset
 
 The Hugging Face Hub provides hosting, discoverability, and social features for datasets. HF also provides an Open Source library, called [datasets](https://github.com/huggingface/datasets), that allows to load them programmatically, and even stream them efficiently in case they are huge. HF provides a viewer that allows users to explore the data directly in the browser.
@@ -195,15 +133,6 @@ The Hugging Face Hub provides hosting, discoverability, and social features for 
 1. Create a repository at <https://huggingface.co/new-dataset> . You can create the repository in your account or under an organization.
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf6qL0AZELjV1bA_Xo1_IIOYTGqm3jZ8leHpDFuUIcGvXPgE57FyZv1faCARQoYV1wIW6KZuetngpin_Q7ET9wWOFj6-YcuQVzMXMIysFb7ZUNwBtgRCPS6Dk9FWVnEFertfzzNauSX5-ExzNgtAdO-s88u?key=JBrhtrMnmuTw4EqYJzGXMA)
-
-\
-\
-\
-\
-\
-\
-\
-
 
 2. Add files to the repository. 
 
@@ -232,13 +161,6 @@ We suggest adding a link to your arXiv paper in the dataset card content. HF aut
 
 You can read more about dataset cards in its [official documentation](https://huggingface.co/docs/hub/datasets-adding).
 
-\
-\
-\
-\
-
-
-
 ## Release the model weights.
 
 The Hugging Face Hub provides hosting, discoverability, and social features for models. It’s not constrained to HF official libraries, you can **share model weights of your favorite ML libraries** (or from your research codebase).
@@ -249,14 +171,6 @@ You can create the repository in your account or under an organization.
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc6-QetsKt1OQ-rZCYRXjq7t6TodXCx_hfsoUBy5yeT_dYfRb1SYJxNDb2jBj_BKWHI2ut6PJ7X4my337BQMNHjkZh8UIPmL4MSoyPNa19U-yYHxNIwB4sAuqizQIsG9_ETOOGqVn622vvJGhKEoL8pcm67?key=JBrhtrMnmuTw4EqYJzGXMA)
 
-\
-\
-\
-\
-\
-\
-
-
 2. Add files to the repository. 
 
 To do this, you can go to the Files tab of the repository and click “Upload files”. You can drag and drop files/folders or upload them directly.
@@ -266,10 +180,6 @@ To do this, you can go to the Files tab of the repository and click “Upload fi
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdmeTSicqQfqpfQ3O0dJo4-U6XIE8n2p0NtKJiFIaktS38uCQrDUAvc0pJaj-P97heVjcVCstWXJdiVzLAPgkJZ50BhMoxfAkiKfIMOnKOUPOi0Rmk5gkUVMH8W-tguGL6OqlFGPNVOC5BabqenPo9PXGUN?key=JBrhtrMnmuTw4EqYJzGXMA)
 
 **Note:** Under the hood, HF uses git-based repositories. If you’re familiar with Git (e.g., if you use GitHub or GitLab), you can use similar workflows rather than the UI. Find more information in the [guide](https://huggingface.co/docs/hub/repositories-getting-started#terminal). 
-
-\
-\
-
 
 3. Create a model card.
 
@@ -295,33 +205,15 @@ We suggest adding a link to your arXiv paper in the model card content. HF autom
 
 You can read more about model cards in its [official documentation](https://huggingface.co/docs/hub/model-cards).
 
-\
-
-
-4. \[Extra] Add TensorBoard traces
+4. [Extra] Add TensorBoard traces
 
 TensorBoard is a tool that provides tooling for visualizing metrics.If you push TensorBoard traces to the Hub, an automatic **Metrics** tab will show a TensorBoard instance. Read more about them [here](https://huggingface.co/docs/hub/tensorboard).
-
-\
 
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeGENDd2XwGWTYXRw5YyjcknU8qh6wlM5bSi4UJdSXCJebsUvKnQPRwNHNKVsLay-ZHoZSYN1IXlx5sVhmmGyUu4_Rlx5P0PFN-uEux7O6jrgVLzx9-6_S8CwNii-to32iTrZp2pbXpcUKFr-jrWhxn1tY?key=JBrhtrMnmuTw4EqYJzGXMA)
 
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
 
-
-5. \[Extra] Programmatic Access
+5. [Extra] Programmatic Access
 
 If you want to download the model from Hugging Face in your codebase or online demos, you can use the [huggingface\_hub](https://huggingface.co/docs/huggingface_hub/guides/download) Python library for programmatic access. E.g., this will download a specific file.
 
@@ -360,20 +252,11 @@ It’s up to you! We’ll share how to build on in the next section, but here ar
 
 **Note**: Spaces are free when running on CPUs. If running with GPUs, you can request a community grant (in the **Settings** tab) or pay for a T4, A10G, or A100.
 
-\
-\
-\
-
-
 1. Create a repository at <https://huggingface.co/new-space>. You can create the repository in your account or under an organization. 
 
 Spaces can be built with OS Python libraries such as Gradio or Streamlit, but you can also use Docker or static HTML pages. We recommend using Gradio for quick prototyping, but you can use your favorite tool! 
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdtJHEnlITbKhnKJoolc2lF5lfc_iUYnVWY-hXVUHQ3Gay_kU1vtXLsBrEsuzsqwyAMobkJK7-5mstuReaaYGuvAnHZQHvWmxEVJJB2L_fhLCspndVbhmEwpxzW7IYri7VSe96QtiJNObCgP22eD8irwCg?key=JBrhtrMnmuTw4EqYJzGXMA)
-
-\
-\
-
 
 2. Create your application file
 
@@ -381,35 +264,9 @@ This doc assumes you’re building a Gradio demo. Feel free to check the Gradio 
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfJikohocByXe21LCXeIEQQeVaEXazllMkpN95T7xR306VgntThPC2pOw5p5R_cmCL-zd_yDzcQToghKeRu-xlT92ibCYxoI0QapqcmqRuTDiEi0CIWmIkex-RmmpaX0DvGcgVOpvG3w2X_lecJ5iAxu2J0?key=JBrhtrMnmuTw4EqYJzGXMA)
 
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-
-
 3. Write your application code
 
 If you’re loading a model or dataset, you can load it with the huggingface\_hub Python library.
-
-\
-
 
     import gradio as gr
 
@@ -438,14 +295,6 @@ Your app is built! Make sure to try it out.
 
 You can use any library you like. You can define your [dependencies](https://huggingface.co/docs/hub/spaces-dependencies) in a requirements.txt file.
 
-\
-\
-\
-\
-\
-\
-
-
 2. How do I load a model?
 
 If you want to download the model from the Hub in your Space, you can use the [huggingface\_hub](https://huggingface.co/docs/huggingface_hub/guides/download) Python library for programmatic access. E.g., this will download a specific file.
@@ -464,12 +313,6 @@ Feel free to check [Gradio docs and guides](https://www.gradio.app/guides/quicks
 
 It has components such as Audio, Text, Annotated Images, Chatbots, Code, Files, Gallery of Images, 3D objects, Videos, and even build your own.
 
-\
-\
-\
-\
-
-
 4. Any tips for making a good demo?
 
 - Simple demos are more popular.
@@ -479,18 +322,6 @@ It has components such as Audio, Text, Annotated Images, Chatbots, Code, Files, 
 - Make sure to link to your model or paper.
 
 - Add bias and content acknowledgment (see [SD demo](https://huggingface.co/spaces/stabilityai/stable-diffusion?logs=build) as an example).
-
-\
-\
-\
-\
-\
-\
-\
-\
-\
-
-
 
 ## Foster usage and adoption:
 
@@ -503,38 +334,11 @@ You can collect all project artifacts (model, dataset, demo, paper) as a collect
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeuVD3Dn32uDQNcjyplwVU0zo1e6ZU9H7nQ0FZHyJ0BZDtGwxCZBDELRq1azUjV1-r71j4uf-J-jEjf4CPtcU5GaND87LDKXbSNDXPtlo3qRobOI8_6mJyK45Cs2qQbeAIVCLjKPA8oZXtibaPlIa5giwOw?key=JBrhtrMnmuTw4EqYJzGXMA)
 
-\
-\
-\
-\
-\
-\
-\
-\
-
-
-
 ### \[Bonus] Paper Space
 
 Have you seen very nice [research websites](https://nerfies.github.io/) with all the artifacts and some nice examples of their work? You can host one like this using GitHub Pages or Hugging Face Spaces. For Spaces, just select the [Nerfies/Paper Project template](https://huggingface.co/new-space?template=nerfies%2Fpaper-template) and customize the content for your liking!
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdJySBQPfjepxhu6Hoz3GvW42pLhDVscYtbEDZ5UCPplOZLhggyGLSFH6n-6NMoy5ms9XTJx_ps5w-VuqA7vYlSk1M4p-gKYPBam4yhG-IFkz_8DRDb1ooIR00JUGQQ4fr1wkxwCh2RB4bjChAO1MgZ2PZt?key=JBrhtrMnmuTw4EqYJzGXMA)
-
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-
-
 
 ### \[Bonus] Hugging Face Paper Page
 
@@ -542,47 +346,11 @@ Have you seen very nice [research websites](https://nerfies.github.io/) with all
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdiGkb3Bpt8iI705TCA60sLq0_Ks5Lj4Mmdo5peSEwPOIjjnt6WjnxatgmvYqO39Huz8pZRSVLZt8YOAQRmosTPvHo6CuOUmmewPFIPUnMniBKxg2ApoLihvWjssjkwVdBcasqYzEE5sSi0Gw-W2YtfKEUK?key=JBrhtrMnmuTw4EqYJzGXMA)
 
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-
-
-
 ### Communicate
 
 Congrats on the release! Although you might think you’re done, communicating about it is one of the most important pieces of a research release! Using social platforms such as X or Reddit, writing a blog post, or preparing some announcements to build some momentum for your work is important. 
 
 Try to partner with collaborators such as researchers or open-source contributors for the release; this can amplify your message and open new doors. Once you communicate, engage with the community!  Effective communication is not just about broadcasting your research but also about building relationships and engaging with your audience.
-
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-
-
 
 ## How to use this document?
 
